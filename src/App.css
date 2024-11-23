@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+/* Optional custom styles for the form */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+textarea {
+  resize: vertical; /* Allow resizing only vertically */
+}
+
+button {
+  width: 45%;
+}
+
+button:focus {
+  outline: none;
+}
+
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #218838; /* Darker green on hover for the "Add Recipe" button */
+}

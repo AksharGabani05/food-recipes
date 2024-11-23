@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Button styles */
+button, .btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* Card Title */
+.card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* Card Text */
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9; /* Optional: adds a subtle background color */
+  color: #333; /* Sets text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font for headings */
+}
+
+button, .btn {
+  font-family: 'Poppins', sans-serif; /* Use Poppins font for buttons */
+}
