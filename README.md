@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+🍽️ Food Recipes App
+🍴 Discover, share, and enjoy the world of cooking with recipes at your fingertips.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌟 Overview
+The Food Recipes App is a React.js web application that allows users to browse, search, and save recipes from various cuisines. Whether you're a beginner cook or an experienced chef, this app offers a wide variety of recipes, detailed cooking instructions, and nutritional information, helping users enhance their culinary skills.
 
-## Available Scripts
+📂 Features
+✔️ Recipe Search: Search for recipes by ingredients, cuisine, or dish name.
+✔️ Recipe Details: View detailed recipe instructions, ingredients, cooking time, and nutritional information.
+✔️ Save Recipes: Users can save their favorite recipes for easy access later.
+✔️ Random Recipe Generator: Get a random recipe suggestion to inspire your next meal.
+✔️ Responsive Design: Optimized for mobile, tablet, and desktop views.
+✔️ Filter Recipes: Filter recipes based on dietary preferences such as vegetarian, gluten-free, etc.
+✔️ Recipe Ratings: Rate recipes to help others discover the best ones.
+✔️ User Authentication: Users can sign up and log in to save and manage their recipes.
+✔️ Dark Mode: Switch between light and dark themes for a better user experience.
 
-In the project directory, you can run:
+🛠️ Tech Stack
+Frontend: React.js, HTML, CSS, TailwindCSS/Bootstrap
+State Management: Context API or Redux
+Routing: React Router
+Libraries: Axios (for API calls), React Icons, React Toastify (for notifications)
+API: The application pulls recipes from an external API (e.g., Spoonacular API) or a custom backend.
+Authentication: Firebase or custom JWT authentication
+🎨 Screenshots
+1️⃣ Recipe Search Page
 
-### `npm start`
+2️⃣ Recipe Details Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3️⃣ Saved Recipes Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🤝 Contributing
+We welcome contributions! 🚀 Follow these steps to contribute:
 
-### `npm test`
+Fork the repository.
+Create a new branch for your feature (git checkout -b feature-name).
+Commit your changes (git commit -m "Add feature-name").
+Push to your branch (git push origin feature-name).
+Open a Pull Request.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👨‍💻 Author
+👤 Akshar Gabani
+📧 Email: akshargabani9425@gmail.com
+🌐 GitHub: AksharGabani05
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🌐 Live Demo : https://food-recipes-pi.vercel.app/
